@@ -1,3 +1,5 @@
+# A static method is a method that belongs to the class itself, rather than to instances (objects) of the class.
+
 class Calculator:
     # Static attribute to count the number of times add() is called
     count = 0
@@ -17,4 +19,9 @@ if __name__ == "__main__":
 
     result2 = Calculator.add(3, 7)
     print(f"Result of addition: {result2}")
+    print(f"Add method called: {Calculator.count} times")
+
+
+    result3 = Calculator.add(12, 34)
+    print(f"Result of addition: {result3}")
     print(f"Add method called: {Calculator.count} times")

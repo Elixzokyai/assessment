@@ -1,3 +1,6 @@
+
+# composition is a design principle that involves building complex functionality by combining simpler, reusable components or classes, rather than using inheritance alone.
+
 class Engine:
     def __init__(self):
         self.is_running = False

@@ -1,3 +1,6 @@
+
+# The system will make deposit and make withdraw and return the balance.
+
 class BankAccount:
     def __init__(self, initial_balance=0):
         self.__balance = initial_balance  # Private attribute to store balance
